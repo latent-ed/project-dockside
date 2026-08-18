@@ -11,9 +11,10 @@ For example: `feature/dr-silver-pivot`
 
 ## Pull requests
 
-Every change reaches `main` through a pull request.
+Every change reaches `main` through a pull request, approved by the instructor.
 
-- Two approvals required: one teammate, plus the instructor
+- Your teammates cannot unblock a merge, but review each other's work anyway —
+  it is assessed, and it catches things before the instructor sees them
 - Keep PRs small and single-purpose. A 400-line PR gets rubber-stamped,
   and a rubber-stamped PR is not a review
 - Resolve all conversations before merging
