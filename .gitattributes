@@ -1,0 +1,12 @@
+# Normalise line endings so Windows and Mac stop rewriting every file.
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.sql  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+
+*.parquet binary
+*.png     binary

@@ -1,0 +1,32 @@
+# Environment — never commit real values
+.env
+.env.*
+!.env.example
+
+# Credentials and keys
+*.pem
+*.p8
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Data — do not commit extracts
+*.parquet
+*.csv
+data/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
